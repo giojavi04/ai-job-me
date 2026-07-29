@@ -1,75 +1,84 @@
 # Search Queries for Job Scraper
 
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
+<!-- Configured for: Javier Montalvo - Senior Full Stack Developer, fully-remote (global) -->
 
 ## Search Sites
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY])
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+The built-in portal CLIs are Denmark-specific and are NOT used. Javier targets fully-remote
+international roles, so search LinkedIn plus global remote job boards and company career pages.
+
+Primary:
+- **linkedin.com/jobs** - filter by "Remote"; keywords below
+- **remoteok.com** - remote-first tech roles
+- **weworkremotely.com** - remote developer roles
+- **wellfound.com** (AngelList) - startup remote roles
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
+- General remote-board searches with `"remote"` in the query
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. your city, region, or metro area) where the site supports it.
+Queries are grouped by priority. All roles are fully remote, so combine each query with
+`remote` (and optionally `LatAm` or `Americas timezone`) rather than a city.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Senior Full Stack Developer
 
-These match your strongest and most desired career direction.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+Strongest and most desired direction.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:linkedin.com/jobs "Senior Full Stack Developer" remote
+site:linkedin.com/jobs "Full Stack Engineer" React Node remote
+site:remoteok.com "full stack" react node
+"Senior Full Stack" (React OR Next.js) (Node OR Python) remote
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Tech Lead (hands-on)
 
-Adjacent roles you could pivot into.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+Hands-on technical leadership without leaving the code.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:linkedin.com/jobs "Tech Lead" React remote
+site:linkedin.com/jobs "Engineering Lead" (hands-on OR "player coach") remote
+"Technical Lead" full stack remote (Americas OR LatAm)
+```
+
+### Priority 3: Frontend Engineer (React / Vue / Next.js)
+
+```
+site:linkedin.com/jobs "Senior Frontend Engineer" (React OR Vue OR Next.js) remote
+site:remoteok.com frontend react
+site:weworkremotely.com "front end" (react OR vue) remote
+```
+
+### Priority 4: AI Automation / AI Engineer
+
+Adjacent direction leveraging OpenAI/LLM and n8n experience.
+
+```
+site:linkedin.com/jobs "AI Engineer" (OpenAI OR LLM) remote
+site:linkedin.com/jobs "AI Automation" (n8n OR OpenAI) remote
+"AI Engineer" (full stack OR TypeScript) remote (Americas OR LatAm)
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+Javier is based in Quito, Ecuador and requires fully-remote work. When evaluating results:
+- **PASS:** fully remote worldwide, or remote within the Americas / US timezone overlap
+- **PASS:** remote-first with occasional optional travel
+- **FAIL:** on-site or hybrid requiring presence outside Quito
+- **FLAG:** local-currency-only pay well below competitive international/USD rates
+
+There is no commute radius to enforce - the filter is remote-eligibility and timezone overlap.
 
 ## Date Filter
 
-Only include jobs posted within the last 14 days, or with an application deadline that has not yet passed. If a posting date cannot be determined, include it but flag as "date unknown".
+Only include jobs posted within the last 14 days, or with an application deadline that has not
+yet passed. If a posting date cannot be determined, include it but flag as "date unknown".
 
 ## Adapting Queries
 
-If the user specifies a focus area, select queries from the matching category and also generate 2-3 custom queries for that focus. For example:
-- "/scrape [focus_area]" -> relevant category queries + custom focus-specific queries
+If the user specifies a focus area, select queries from the matching category and also generate
+2-3 custom queries for that focus. For example:
+- "/scrape ai" -> Priority 4 queries + custom AI/LLM-specific queries
+- "/scrape frontend" -> Priority 3 queries + custom React/Vue-specific queries

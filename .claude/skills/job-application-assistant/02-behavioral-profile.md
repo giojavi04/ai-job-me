@@ -1,50 +1,55 @@
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
+<!-- No formal assessment (PI/DISC/MBTI) was provided. The traits below are INFERRED
+     from the LinkedIn "About" section and CV framing. Review and correct before relying on them. -->
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+*[Inferred from LinkedIn About - review before relying on this]*
+Javier presents as a **hands-on technical leader**: someone who takes architecture and mentoring responsibility while staying close to the code, and who frames his work around measurable business impact (cost reduction, performance, conversion).
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Ownership | High | Acts as technical owner from discovery to production; drives decisions |
+| Mentoring / influence | High | Repeatedly sets standards and mentors junior/mid developers |
+| Pragmatism / impact focus | High | Optimizes for concrete outcomes (uptime, cost, load time, conversion) |
+| Autonomy | High | Long freelance track record; comfortable owning ambiguous problems |
+
+*(Levels above are inferred, not from a validated instrument.)*
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+*[Inferred from LinkedIn About / CV - review before relying on this]*
+- **Lead by example:** takes leadership while remaining hands-on in the code
+- **Modernizer:** consistently leads legacy migrations (AngularJS→Vue, PHP→Go/C#)
+- **Bridge builder:** collaborates closely with product and business stakeholders to translate requirements into technical solutions
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Roles where technical leadership does not mean leaving the code
+- Environments that value clean architecture, SOLID, and mentoring
+- Ownership over outcomes with room to define architecture and standards
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+<!-- These are placeholders inferred from profile gaps; refine with the candidate. -->
+- **English fluency (B1):** working proficiency; frame as functional for technical collaboration, improving
+- **Formal leadership title:** "Tech Lead-ready" rather than titled lead - frame the leadership evidence (mentoring, standards, migrations) rather than the title
 
 ## Mapping to Job Posting Language
 
-When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+When a job posting mentions these, it's a **strong behavioral fit**:
+- "hands-on", "player-coach", "tech lead", "ownership", "mentoring"
+- "legacy modernization", "architecture", "clean code", "SOLID"
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- "pure management / no coding" (Javier wants to stay hands-on)
+- "native/fluent English required" (currently B1)
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Works well with autonomy and clear ownership boundaries
+- Prefers leading through standards, code review, and mentoring over top-down control
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** lead with hands-on leadership + measurable impact
+- **CV:** emphasize migrations, mentoring, and quantified outcomes
+- **Interviews:** use the migration and AI-automation STAR examples
+- **Don't overstate:** no formal "Tech Lead" job title yet; claim leadership through evidence, not title

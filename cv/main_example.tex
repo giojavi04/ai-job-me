@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Javier Montalvo
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -24,18 +23,18 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Javier Montalvo - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Javier}{Montalvo}
+\address{Quito, Ecuador}{}{}
+\phone[mobile]{+593 98 730 8851}
+\email{giojavi04@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/giojavi04}{LinkedIn}, \href{https://github.com/giojavi04}{GitHub}, \href{https://javiermontalvo.me}{javiermontalvo.me}}
 
 \begin{document}
 
@@ -46,7 +45,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Senior Full Stack Developer with 10+ years building, scaling, and modernizing web platforms across enterprise and startup environments. Deep in the modern JavaScript ecosystem (React, Next.js, Vue.js, Node.js) with backend range in Python, Golang, C\#, and PHP on AWS. Hands-on technical leader: leads legacy migrations, sets coding standards, mentors developers, and integrates AI-powered automation (OpenAI, n8n) for measurable business impact.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +55,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Frontend}: React, Next.js, Vue.js, TypeScript, JavaScript (ES6+), React Native, Redux, component libraries, responsive design.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Backend \& APIs}: Node.js, Python, Golang, C\#/.NET, PHP/Laravel, REST, GraphQL, microservices architecture.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{AI \& Automation}: OpenAI API integration, LLM applications, n8n workflow automation, chatbot development, sentiment analysis, AI-powered data analysis.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Cloud \& DevOps}: AWS (EC2, S3, Lambda, RDS, CloudFront, ECS), Docker, Kubernetes, CI/CD (GitHub Actions, GitLab CI).
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Databases \& Practices}: PostgreSQL, MongoDB, MySQL, Neo4j, Redis; Clean Architecture, SOLID, TDD, code reviews.
 
 \end{itemize}
 
@@ -76,32 +75,60 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- PPM ---
+\item{\cventry{2021--2025}{Development Specialist}{PPM}{Quito, Ecuador}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Pioneered AI-driven automation with OpenAI APIs to analyze Microsoft Teams sales conversations, improving conversion rates by 20\%.
+    \item Built a Telegram support chatbot (n8n + OpenAI) handling 500+ monthly queries and cutting support ticket volume by 45\%.
+    \item Led modernization of a legacy platform, migrating services from Laravel/PHP to Golang and C\# microservices.
+    \item Delivered end-to-end features across React and multiple backends, improving performance by 40\% and reducing bugs by 35\%.
+    \item Optimized AWS infrastructure, cutting cloud costs by 25\% while reaching 99.8\% uptime.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Freelance ---
+\item{\cventry{2011--Present}{Freelance Full-Stack Developer}{Independent}{Quito, Ecuador}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Delivered end-to-end web solutions for startups and SMEs as technical owner from discovery to production.
+    \item Built React/Next.js/Vue.js frontends and Node.js/PHP backends with REST and GraphQL APIs on AWS.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Kruger Corp ---
+\item{\cventry{2021}{Full Stack Developer (Freelance)}{Kruger Corp}{Quito, Ecuador}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Delivered features for a containerized microservices architecture (AngularJS + Node.js on Docker/Kubernetes, AWS).
+    \item Authored technical documentation that improved team velocity by 30\%.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Trade Ec ---
+\item{\cventry{2020--2021}{Frontend Associate Engineer}{Trade Ec}{Quito, Ecuador}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built React web and React Native mobile apps with reusable component libraries, cutting development time by 25\%.
+    \item Implemented a design system that reduced design-to-development handoff time by 40\%.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Grupo Centrico ---
+\item{\cventry{2016--2020}{Frontend Developer}{Grupo Céntrico}{Quito, Ecuador}{}{\vspace{1pt}
+\begin{itemize}
+    \item Led a 50,000+ line AngularJS-to-Vue.js migration with an 8-person team over 12 months, zero production disruption.
+    \item Designed a Python GraphQL layer over MongoDB and Neo4j, reducing API response times by 60\%.
+    \item Mentored 6 developers and implemented CI/CD, cutting deployment time from 2 hours to 15 minutes.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Shift Latam ---
+\item{\cventry{2014--2016}{Web Developer}{Shift Latam}{Quito, Ecuador}{}{\vspace{1pt}
+\begin{itemize}
+    \item Delivered full-stack solutions for 15+ clients (HTML5, CSS3, jQuery, PHP, MySQL, WordPress).
+    \item Applied SEO and performance optimization, improving page load speed by 50\%.
 \end{itemize}}}
 
 \end{itemize}
@@ -114,14 +141,8 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
-\vspace{3pt}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2009--2013}{Systems Analysis Technologist}{Instituto Superior Tecnológico Yavirac}{Quito, Ecuador}{}{\vspace{1pt}
+Systems analysis and software development.
 }}
 
 \end{itemize}
@@ -133,27 +154,19 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item Spanish (native), English (B1 - professional working proficiency).
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     CERTIFICATIONS
 % ============================================================
 
-\section{Publications}
+\section{Certifications}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{Front End Architect Career} -- Platzi (2017--2025).}
+\item{\textbf{Frontend Career with React.js} -- Platzi (2019--2025).}
+\item{\textbf{Frontend Career with Vue.js} -- Platzi (2019--2025).}
 \end{itemize}
 
 % ============================================================

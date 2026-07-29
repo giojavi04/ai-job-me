@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Javier Montalvo
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Javier Montalvo, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,65 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Javier Montalvo
+- **Location:** Quito, Ecuador (fully-remote; no relocation)
+- **Languages:** Spanish (native), English (B1 - professional working proficiency)
+- **Status:** Open to Senior Full Stack / Tech Lead (hands-on) roles
+- **LinkedIn headline:** "Senior Full Stack Engineer (Tech Lead-ready) | React · Next.js · Node · AWS | AI & Automation"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Systems Analysis Technologist** (2009-2013) - Instituto Superior Tecnológico Yavirac, Quito
+- **High School Diploma (Bachillerato), Computer Programming** (2002-2009) - Instituto Tecnológico Superior Benito Juárez, Quito
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Development Specialist** (Dec 2021 - Oct 2025) - **PPM** (Quito, Ecuador)
+  - AI automation with OpenAI: sales-conversation analysis (+20% conversion), Telegram chatbot with n8n (-45% support tickets)
+  - Led Laravel/PHP → Golang/C# microservices migration; optimized AWS (-25% cost, 99.8% uptime)
+  - Full-stack delivery across React and multiple backends (+40% performance, -35% bugs)
+- **Freelance Full-Stack Developer** (Dec 2011 - Present) - **Independent** (Quito)
+  - End-to-end web solutions for startups/SMEs using React, Next.js, Vue.js, Node.js, PHP/Laravel on AWS
+- **Frontend Developer** (Nov 2016 - Jul 2020) - **Grupo Céntrico** (Quito)
+  - Led 50,000+ line AngularJS → Vue.js migration (8-person team, zero downtime)
+  - Python GraphQL layer over MongoDB + Neo4j (-60% API latency); mentored 6 developers
+- Earlier: Kruger Corp (2021), Trade Ec (2020-2021), Shift Latam (2014-2016), Sintrave Elevadores (2012-2014)
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** React, Next.js, Vue.js, TypeScript, JavaScript, Node.js, React Native
+- **Secondary:** Python, Golang, C#/.NET, PHP/Laravel, AWS, Docker/Kubernetes, GraphQL, REST
+- **Domain:** AI-powered automation (OpenAI/LLM, n8n), legacy modernization, frontend architecture
+- **Software:** PostgreSQL, MongoDB, Neo4j, Redis, Git, CI/CD (GitHub Actions/GitLab CI), Jest/Pytest, Figma, Jira
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Front End Architect Career** - Platzi (2017-2025)
+- **Frontend Career with React.js** - Platzi (2019-2025)
+- **Frontend Career with Vue.js** - Platzi (2019-2025)
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None recorded.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Inferred (no formal assessment provided) - see 02-behavioral-profile.md -->
+- **Hands-on technical leader** - leads by example, stays close to the code
+- **Modernizer** - repeated legacy migrations (AngularJS→Vue, PHP→Go/C#)
+- **Strengths:** architecture, mentoring, measurable impact (cost/performance/conversion)
+- **Growth areas:** English fluency (B1); no formal Tech Lead title yet
+- **Thrives in:** remote teams that value clean architecture, ownership, and mentoring
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building and modernizing web platforms; owning architecture decisions
+- AI-powered automation and integrating LLMs into real products
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Remote-first tech / startups: SaaS, developer tools, AI/automation
+- Product engineering teams hiring senior full-stack or hands-on tech leads
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Not fully remote (remote is a hard requirement)
+- Compensation well below competitive international/USD rates
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

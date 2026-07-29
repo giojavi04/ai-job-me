@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** React, Next.js, Vue.js, Node.js, TypeScript/JavaScript, React Native, full-stack web development, REST/GraphQL APIs, clean architecture/SOLID
+**Moderate match areas:** Python, Golang, C#/.NET, PHP/Laravel, AWS (EC2/S3/Lambda/RDS), Docker/Kubernetes, CI/CD, OpenAI/LLM integration, n8n automation, PostgreSQL/MongoDB/Neo4j
+**Weak match areas:** Deep ML/data science (model training), native mobile (beyond React Native), data engineering at scale, specialized domains outside web platforms
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Senior full-stack web development, frontend architecture, legacy modernization/migrations, AI-powered automation, mentoring and setting standards
+**Moderate:** Hands-on tech lead responsibilities, backend microservices, cloud/DevOps optimization, stakeholder/product collaboration
+**Entry-level:** Formal people-management, pure data-science/ML roles, non-web engineering domains
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,10 +47,10 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+- Fully remote (worldwide, or LatAm/US-timezone overlap): PASS
+- Remote-first with occasional travel: PASS (flag travel frequency)
+- On-site or hybrid requiring presence outside Quito: FAIL (remote is a hard requirement)
+- Local-currency-only pay well below international rates: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +63,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Grow into a hands-on Tech Lead / Staff Engineer role without leaving the code
+- Join an international, fully-remote company with competitive USD compensation
+- Deepen AI-powered automation and modern full-stack architecture work
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: building and modernizing web platforms, architecture decisions, AI/automation integration, mentoring, setting standards
+- Tasks that drain: pure maintenance with no new development, pure people-management with no coding
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Prioritizes competitive international/USD compensation over local-market pay
+- **Flexibility**: Fully-remote is a hard requirement (based in Quito, Ecuador)
+- **Professional development**: Wants to keep growing technically toward Tech Lead / Staff level
 
 ### 6. Salary Benchmark (Optional)
 

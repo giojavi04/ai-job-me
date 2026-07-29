@@ -105,12 +105,11 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Senior Full Stack Developer roles:**
+> Senior Full Stack Developer with 10+ years building, scaling, and modernizing web platforms across enterprise and startup environments. Deep in the modern JavaScript ecosystem (React, Next.js, Vue.js, Node.js) with backend range in Python, Golang, C#, and PHP on AWS. Proven at leading large-scale legacy migrations and delivering features that measurably improve performance, cost, and user experience.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Tech Lead (hands-on) roles:**
+> Hands-on technical leader with 10+ years across the full stack, combining architecture and mentoring with day-to-day delivery. Track record leading legacy modernizations (AngularJS→Vue.js, PHP→Golang/C# microservices), setting coding standards, and integrating AI-powered automation (OpenAI, n8n) for concrete business impact. Leads by example while staying close to the code.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.
