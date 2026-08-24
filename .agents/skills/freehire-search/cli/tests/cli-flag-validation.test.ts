@@ -31,6 +31,16 @@ describe("freehire CLI flag validation", () => {
     });
   });
 
+  describe("--description-format validation", () => {
+    test("an unsupported format exits 1 with BAD_ARG", async () => {
+      const result = await runCLI(["search", "--description-format", "tekst"]);
+      expect(result.exitCode).not.toBe(0);
+      const err = parsedStderr(result.stderr);
+      expect(err.code).toBe("BAD_ARG");
+      expect(err.error).toMatch(/description-format/);
+    });
+  });
+
   describe("--facet validation", () => {
     test("a facet without '=' exits 1 with BAD_ARG", async () => {
       const result = await runCLI(["search", "--facet", "novalue"]);
@@ -65,5 +75,22 @@ describe("freehire CLI flag validation", () => {
       expect(result.exitCode).toBe(1);
       expect(result.stdout).toMatch(/USAGE/);
     });
+  });
+});
+
+
+describe("unknown flag rejection", () => {
+  // add-portal.md's contract: "a bogus flag or missing required arg exits 1
+  // with a JSON error on stderr". A silently discarded flag is worse than an
+  // error: on jobdanmark a wrong flag name returned the entire database
+  // (13,862 results) as if it matched the query (review finding F13,
+  // 2026-08-19). Rejection happens before dispatch, so these are network-free.
+  test("a bogus --flag exits 1 with a JSON error instead of being silently discarded", async () => {
+    const result = await runCLI(["search", "--query", "test", "--bogus-flag", "xyz"]);
+    expect(result.exitCode).toBe(1);
+    expect(result.stdout).toBe("");
+    const error = JSON.parse(result.stderr);
+    expect(error.code).toBe("UNKNOWN_FLAG");
+    expect(error.error).toContain("--bogus-flag");
   });
 });

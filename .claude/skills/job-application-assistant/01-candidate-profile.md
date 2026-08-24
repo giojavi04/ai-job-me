@@ -1,3 +1,7 @@
+---
+framework_version: 1.1.1
+---
+
 # Candidate Profile
 
 ## Identity
@@ -8,9 +12,19 @@
 - **LinkedIn:** https://www.linkedin.com/in/giojavi04
 - **GitHub:** https://github.com/giojavi04
 - **Website:** https://javiermontalvo.me
-- **Languages:** Spanish (Native), English (B1 - Professional Working Proficiency)
 - **Status:** Senior Full Stack Developer, open to Senior Full Stack / Tech Lead (hands-on) roles
 - **Constraints:** Based in Quito; open to remote (to be confirmed for on-site/relocation)
+
+### Languages
+<!-- Every language you can work in professionally, with your honest level. Used by the
+Language Gate in 04-job-evaluation.md and by job-scraper/search-queries.md's query-language
+generation. Omit any language you don't actually work in - an undeclared language is treated as
+a hard no, not a gap to smooth over. -->
+
+| Language | Level | Notes |
+|----------|-------|-------|
+| Spanish | Native | |
+| English | B1 (professional working proficiency) | |
 
 ## Education
 

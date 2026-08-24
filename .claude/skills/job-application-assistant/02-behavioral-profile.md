@@ -1,3 +1,7 @@
+---
+framework_version: 1.0.0
+---
+
 # Behavioral Profile
 
 <!-- No formal assessment (PI/DISC/MBTI) was provided. The traits below are INFERRED
